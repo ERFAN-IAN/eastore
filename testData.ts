@@ -28,8 +28,8 @@ const testData = {
       rating: 4.5,
       numReviews: 10,
       stock: 5,
+      isPublished: true,
       isFeatured: true,
-      banner: "/images/banner-1.jpg",
     },
     {
       name: "Brooks Brothers Long Sleeved Shirt",
@@ -45,8 +45,8 @@ const testData = {
       rating: 4.2,
       numReviews: 8,
       stock: 10,
+      isPublished: true,
       isFeatured: true,
-      banner: "/images/banner-2.jpg",
     },
     {
       name: "Tommy Hilfiger Classic Fit Dress Shirt",
@@ -62,8 +62,8 @@ const testData = {
       rating: 4.9,
       numReviews: 3,
       stock: 0,
+      isPublished: true,
       isFeatured: false,
-      banner: null,
     },
     {
       name: "Calvin Klein Slim Fit Stretch Shirt",
@@ -79,8 +79,8 @@ const testData = {
       rating: 3.6,
       numReviews: 5,
       stock: 10,
+      isPublished: true,
       isFeatured: false,
-      banner: null,
     },
     {
       name: "Polo Ralph Lauren Oxford Shirt",
@@ -96,8 +96,8 @@ const testData = {
       rating: 4.7,
       numReviews: 18,
       stock: 6,
+      isPublished: true,
       isFeatured: false,
-      banner: null,
     },
     {
       name: "Polo Classic Pink Hoodie",
@@ -113,8 +113,8 @@ const testData = {
       rating: 4.6,
       numReviews: 12,
       stock: 8,
+      isPublished: true,
       isFeatured: true,
-      banner: null,
     },
   ],
 };

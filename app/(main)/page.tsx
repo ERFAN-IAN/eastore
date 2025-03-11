@@ -1,8 +1,10 @@
 import ProductList from "@/components/product/ProductList";
-export default function Home() {
+import { getAllProducts } from "@/lib/actions/product.actions";
+export default async function Home() {
+  const latestProducts = await getAllProducts();
   return (
     <div>
-      <ProductList />
+      <ProductList products={latestProducts} />
     </div>
   );
 }

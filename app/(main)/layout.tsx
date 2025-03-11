@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/header";
+import "swiper/css";
 export default function RootLayout({
   children,
 }: Readonly<{

@@ -8,26 +8,10 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
-const ProductCard = ({
-  data,
-}: {
-  data: {
-    name: string;
-    slug: string;
-    category: string;
-    description: string;
-    images: string[];
-    price: number;
-    brand: string;
-    rating: number;
-    numReviews: number;
-    stock: number;
-    isFeatured: boolean;
-    banner: string | null;
-  };
-}) => {
+import { Product } from "@/types";
+const ProductCard = ({ data }: { data: Product }) => {
   return (
-    <Link href={`/products/${data.slug}`}>
+    <Link href={`/product/${data.slug}`}>
       <Card>
         <CardHeader>
           <Image
