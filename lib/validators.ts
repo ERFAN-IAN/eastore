@@ -8,7 +8,7 @@ export const inputProuctSchema = z.object({
   category: z.string().min(3, "Category must have at least three chars"),
   description: z.string().min(3, "description must have at least three chars"),
   stock: z.number().min(0),
-  price: z.coerce.number(),
+  price: z.coerce.string(),
   isPublished: z.boolean(),
   isFeatured: z.boolean(),
 });
